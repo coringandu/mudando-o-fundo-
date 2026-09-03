@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execício10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Login Simples</h1>
+        <p>Digite o usuario e a senha para testar a validação</p>
+
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" placeholder="Digite o usuário">
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" placeholder="Digite sua senha">
+
+        <div class="botoes">
+            <button onclick="verificadorLogin()">Entrar</button>
+            <button class="secundario" onclick="LimparCampos()">Limpar</button>
+
+        </div>
+
+        <p id="resultado">Resultado:  </p>
+        <p class="dica">Teste com o usuário <strong>aluno</strong> e a senha <Strong>1234</Strong>.</p>
+
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
